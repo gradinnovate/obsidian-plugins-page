@@ -2,54 +2,55 @@
 
 [English](README.md) | [简体中文](README_zh_CN.md) | [繁體中文](README_zh_TW.md) | [日本語](README_ja.md) | [Deutsch](README_de.md)
 
-# **Farbtabellen-Plugin**: Verwandeln Sie Ihre Daten in visuelle Meisterwerke
 
-Verbessern Sie Ihr Obsidian-Erlebnis mit dem **Farbtabellen-Plugin** - Ihrem ultimativen Werkzeug zur Umwandlung gewöhnlicher CSV-Daten in wunderschön formatierte Tabellen und fesselnde Diagramme.
+# **Color Table Plugin**: Erstellen Sie einfach schöne Tabellen in Obsidian
+
+Transformieren Sie Ihre Obsidian-Erfahrung mit dem **Color Table Plugin** - Ihrem bevorzugten Werkzeug, um Rohdaten in wunderschön formatierte Tabellen und ansprechende Diagramme zu verwandeln, ohne komplexe Markdown-Tabellensyntax beherrschen zu müssen.
 
 ## 🎧 **Plugin-Einführung**
 
-Hören Sie sich die KI-Audio-Rezension an, um mehr über die spannenden Funktionen des Farbtabellen-Plugins zu erfahren:
+Hören Sie sich die KI-Audio-Rezension an, um mehr über die spannenden Funktionen des Color Table Plugins zu erfahren:
 
 <audio controls>
   <source src="media/color-table-review.m4a" type="audio/mp4">
   Your browser does not support the audio element.
 </audio>
 
-
 ![Schnellvorschau](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/table-anim.gif)
 
 ## 🌟 **Hauptfunktionen**
 
-- 🎨 **Verschönern Sie Ihre Daten**: Hauchen Sie CSV-Dateien mit optisch ansprechenden Tabellen Leben ein.
-- 🌈 **Anpassung mit Farbe**: Drücken Sie Ihren Stil mit einer Reihe lebendiger Farbthemen aus.
-- 📊 **Trends visualisieren**: Wandeln Sie Ihre Daten in auffällige Balkendiagramme für eine schnelle Analyse um.
+- 🎨 **Verschönern Sie Ihre Tabellen**: Verwandeln Sie Rohdaten schnell in polierte, leicht lesbare Tabellen.
+- 🌈 **Anpassung mit Farbe**: Drücken Sie Ihren Stil mit einer Reihe von lebendigen Farbthemen für Ihre Tabellen aus.
+- 📊 **Trends visualisieren**: Konvertieren Sie Ihre Daten mühelos in auffällige Balkendiagramme oder andere Diagrammtypen wie Kreis-, Linien- und Radardiagramme für schnelle Einblicke.
+- ✨ **Interaktive Funktionen**: Zoomen und schwenken Sie in Diagrammen, schweben Sie über Datenpunkten für detaillierte Informationen und genießen Sie interaktives Tabellensortieren, um tiefere Einblicke in Ihre Daten zu gewinnen.
 
 ## 🚀 **Erste Schritte**
 
 1. Öffnen Sie **Obsidian** und navigieren Sie zu **Einstellungen**.
-2. Gehen Sie zum Abschnitt **Community-Plugins**.
+2. Gehen Sie zum Abschnitt **Community Plugins**.
 3. Deaktivieren Sie den **Sicheren Modus**.
-4. Klicken Sie auf **Durchsuchen** und suchen Sie nach **Color Table**.
-5. Installieren und aktivieren Sie Ihren Datenvisualisierungsbegleiter!
+4. Klicken Sie auf **Durchsuchen** und suchen Sie dann nach **Color Table**.
+5. Installieren und aktivieren Sie Ihren Tabellen- und Diagramm-Begleiter!
 
 ## 💡 **Verwendung**
 
-### **CSV in Markdown-Tabelle umwandeln**
+### **Erstellen Sie Tabellen mit einfachem Markdown**
 
-Wählen Sie einen beliebigen CSV-formatierten Text in Ihrer Markdown-Datei aus und verwenden Sie den Befehl **"CSV in Markdown-Tabelle umwandeln"**. Wenn der Text gültiges CSV ist, wird er sofort in eine saubere Markdown-Tabelle umgewandelt. Andernfalls erscheint eine Benachrichtigung für ungültige Formate.
+Wählen Sie beliebige Klartext-Daten in Ihrer Markdown-Datei aus und verwenden Sie den Befehl **"In Markdown-Tabelle konvertieren"**. Das Plugin wird Ihre Daten automatisch in eine saubere, organisierte Tabelle umwandeln - keine Sorge um komplexe Formatierung. Wenn das Datenformat nicht korrekt ist, erscheint eine hilfreiche Benachrichtigung.
 
-**Tipp**: Kombinieren Sie diese Funktion mit Hotkeys für schnelle CSV-zu-Markdown-Umwandlungen!
+**Tipp**: Verwenden Sie Hotkeys, um den Konvertierungsprozess zu beschleunigen! Achten Sie darauf, Ihre Datenwerte durch Kommas (`,`) zu trennen, um die besten Ergebnisse zu erzielen.
 
-![Hotkey-Umwandlung](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/hotkey-anim.gif)
+![Hotkey-Konvertierung](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/hotkey-anim.gif)
 
-![CSV-zu-Markdown-Beispiel](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/markdown-table-anim.gif)
+![Markdown-Tabellenbeispiel](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/markdown-table-anim.gif)
 
-### **Erstellen Sie atemberaubende Tabellen**
+### **Erstellen Sie atemberaubende, anpassbare Tabellen**
 
-Verwenden Sie in Ihrer Markdown-Datei einfach das folgende Format, um wunderschön gestaltete Tabellen zu generieren:
+Verwenden Sie in Ihrer Markdown-Datei das folgende Format, um visuell ansprechende Tabellen zu generieren:
 
 ````markdown
-```csv orange
+```csv-table orange
 ID, Name, Age, Department, Salary
 1, Alice, 29, HR, 50000
 2, Bob, 35, IT, 75000
@@ -60,37 +61,54 @@ ID, Name, Age, Department, Salary
 
 ![Tabellenbeispiel](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/table.png)
 
-#### **Interaktive Sortierung: Entfesseln Sie die Kraft Ihrer Daten**
+#### **Interaktive Tabellen: Bringen Sie Ihre Daten weiter**
 
-Heben Sie Ihre Tabellen mit dynamischen, sortierbaren Spalten auf ein neues Niveau. Mit nur einem Klick können Sie:
+Verbessern Sie Ihre Tabellen mit dynamischen Funktionen wie sortierbaren Spalten, die es Ihnen ermöglichen:
 
 - 🖱️ **Sofortige Sortierung**: Klicken Sie auf eine beliebige Spaltenüberschrift, um Ihre Daten zu sortieren.
-- 🔄 **Richtung umschalten**: Wechseln Sie mühelos zwischen auf- und absteigender Reihenfolge.
-- ⚡ **Echtzeit-Updates**: Beobachten Sie, wie Ihre Daten sofort neu sortiert werden und unmittelbare Einblicke liefern.
-
-Stärken Sie Ihre Entscheidungsfindung mit dieser intuitiven Funktion!
+- 🔄 **Sortierrichtung umschalten**: Wechseln Sie einfach zwischen aufsteigender und absteigender Reihenfolge.
+- ⚡ **Echtzeit-Updates**: Beobachten Sie, wie Ihre Daten sofort neu sortiert werden, um schnelle Entscheidungen zu treffen.
 
 ![Beispiel einer sortierbaren Tabelle](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/sorted-table.png)
 
-### **Balkendiagramme erstellen**
+### **Erstellen Sie interaktive Diagramme mit mehreren Diagrammtypen**
 
-Möchten Sie Ihre Daten als Balkendiagramm visualisieren? Verwenden Sie das folgende Format:
+Möchten Sie Ihre Daten mit einem Balkendiagramm, Kreisdiagramm, Liniendiagramm oder Radardiagramm visualisieren? Es ist einfach! Verwenden Sie dieses Format, um Ihre Tabelle sofort in ein Diagramm umzuwandeln:
 
 ````markdown
-```csv-chart red
+```csv-chart red bar
 Month, Sales
 Jan, 1200
 Feb, 200
 ...
 Dec, 1900
 ```
+
+```csv-chart blue pie
+Category, Percentage
+A, 30
+B, 25
+C, 45
+```
+
+```csv-chart green line
+Date, Revenue
+2021-01-01, 500
+2021-02-01, 750
+2021-03-01, 900
+```
 ````
 
 ![Balkendiagramm-Beispiel](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/bar-chart.png)
 
-### **Farbthemen**
+#### **Interaktive Diagrammfunktionen**
 
-Wählen Sie aus einer Vielzahl von Farbthemen, die zu Ihrem Stil passen:
+- 🔍 **Zoom und Schwenken**: Erforschen Sie Ihre Daten, indem Sie auf bestimmte Bereiche zoomen oder durch große Datensätze schwenken.
+- 🎯 **Hover-Details**: Erhalten Sie detaillierte Informationen zu jedem Datenpunkt, indem Sie mit der Maus darüber fahren.
+
+### **Wählen Sie Ihren Stil mit Farbthemen**
+
+Personalisieren Sie Ihre Tabellen und Diagramme mit einer Vielzahl von Farbthemen, um sie an Ihre Obsidian-Ästhetik anzupassen:
 
 - orange
 - blue
@@ -100,4 +118,3 @@ Wählen Sie aus einer Vielzahl von Farbthemen, die zu Ihrem Stil passen:
 - gray
 - pink
 - yellow
-

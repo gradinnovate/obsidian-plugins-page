@@ -2,13 +2,14 @@
 
 [English](README.md) | [简体中文](README_zh_CN.md) | [繁體中文](README_zh_TW.md) | [日本語](README_ja.md) | [Deutsch](README_de.md)
 
-# **彩色表格插件**：将您的数据转化为视觉杰作
 
-使用**彩色表格插件**来提升您的 Obsidian 体验——这是您将普通 CSV 数据转换为美观格式化表格和引人注目图表的终极工具。
+# **Color Table 插件**：在 Obsidian 中轻松创建美丽的表格
+
+使用 **Color Table 插件**改变您的 Obsidian 体验——这是您将原始数据转换为美观格式化表格和引人入胜的图表的首选工具，无需掌握复杂的 Markdown 表格语法。
 
 ## 🎧 **插件介绍**
 
-聆听AI音频评论，了解更多关于彩色表格插件的精彩功能：
+聆听AI音频评论，了解更多关于Color Table插件的精彩功能：
 
 <audio controls>
   <source src="media/color-table-review.m4a" type="audio/mp4">
@@ -20,36 +21,37 @@
 
 ## 🌟 **主要特点**
 
-- 🎨 **美化您的数据**：为 CSV 文件注入生命力，呈现视觉吸引力的表格。
-- 🌈 **以色彩定制**：通过一系列鲜艳的色彩主题表达您的风格。
-- 📊 **可视化趋势**：将您的数据转换为引人注目的条形图，以便快速分析。
+- 🎨 **美化您的表格**：快速将原始数据转换为精美、易读的表格。
+- 🌈 **使用颜色自定义**：通过一系列鲜艳的颜色主题表达您的风格。
+- 📊 **可视化趋势**：轻松将您的数据转换为引人注目的条形图或其他图表类型，如饼图、折线图和雷达图，以获得快速洞察。
+- ✨ **交互功能**：在图表上缩放和平移，悬停在数据点上获取详细信息，并享受交互式表格排序，以深入了解您的数据。
 
 ## 🚀 **开始使用**
 
-1. 打开 **Obsidian** 并导航至**设置**。
-2. 前往**社区插件**部分。
-3. 停用**安全模式**。
-4. 点击**浏览**，然后搜索 **Color Table**。
-5. 安装并启用您的数据可视化助手！
+1. 打开 **Obsidian** 并导航至 **设置**。
+2. 前往 **社区插件** 部分。
+3. 停用 **安全模式**。
+4. 点击 **浏览**，然后搜索 **Color Table**。
+5. 安装并激活您的表格和图表助手！
 
 ## 💡 **如何使用**
 
-### **将 CSV 转换为 Markdown 表格**
+### **使用简单的 Markdown 创建表格**
 
-在您的 Markdown 文件中选择任何 CSV 格式的文本，并使用**"将 CSV 转换为 Markdown 表格"**命令。如果文本是有效的 CSV，它将立即转换为整洁的 Markdown 表格。否则，将出现无效格式的通知。
+在您的 Markdown 文件中选择任何纯文本数据，并使用 **"转换为 Markdown 表格"** 命令。插件将自动将您的数据转换为整洁、有组织的表格——无需担心复杂的格式。如果数据格式不正确，将会出现有用的通知。
 
-**提示**：将此功能与快捷键结合使用，实现快速的 CSV 到 Markdown 转换！
+**提示**：使用快捷键加速转换过程！请确保使用逗号（`,`）分隔您的数据值以获得最佳结果。
 
 ![快捷键转换](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/hotkey-anim.gif)
 
-![CSV 到 Markdown 示例](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/markdown-table-anim.gif)
+![Markdown 表格示例](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/markdown-table-anim.gif)
 
-### **创建令人惊叹的表格**
+### **创建令人惊艳的可自定义表格**
 
-在您的 Markdown 文件中，只需使用以下格式即可生成美观的样式表格：
+在您的 Markdown 文件中，使用以下格式生成视觉吸引力的表格：
 
 ````markdown
-```csv orange
+```csv-table orange
 ID, Name, Age, Department, Salary
 1, Alice, 29, HR, 50000
 2, Bob, 35, IT, 75000
@@ -60,37 +62,54 @@ ID, Name, Age, Department, Salary
 
 ![表格示例](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/table.png)
 
-#### **交互式排序：释放您数据的力量**
+#### **交互式表格：深入探索您的数据**
 
-通过动态可排序的列提升您的表格。只需一次点击，您就可以：
+通过动态功能（如可排序列）增强您的表格，让您能够：
 
 - 🖱️ **即时排序**：点击任何列标题来对您的数据进行排序。
-- 🔄 **切换方向**：轻松在升序和降序之间切换。
-- ⚡ **实时更新**：观察您的数据如何立即重新排序，提供即时洞察。
-
-利用这个直观的功能来增强您的决策能力！
+- 🔄 **切换排序方向**：轻松在升序和降序之间切换。
+- ⚡ **实时更新**：观察您的数据即时重新排序，帮助您快速做出决策。
 
 ![可排序表格示例](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/sorted-table.png)
 
-### **创建条形图**
+### **使用多种图表类型创建交互式图表**
 
-想要将您的数据可视化为条形图吗？使用以下格式：
+想要用条形图、饼图、折线图或雷达图来可视化您的数据吗？很简单！使用这种格式即可立即将您的表格转换为图表：
 
 ````markdown
-```csv-chart red
+```csv-chart red bar
 Month, Sales
 Jan, 1200
 Feb, 200
 ...
 Dec, 1900
 ```
+
+```csv-chart blue pie
+Category, Percentage
+A, 30
+B, 25
+C, 45
+```
+
+```csv-chart green line
+Date, Revenue
+2021-01-01, 500
+2021-02-01, 750
+2021-03-01, 900
+```
 ````
 
 ![条形图示例](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/bar-chart.png)
 
-### **颜色主题**
+#### **交互式图表功能**
 
-从多种颜色主题中选择以匹配您的风格：
+- 🔍 **缩放和平移**：通过放大特定区域或平移浏览大型数据集来探索您的数据。
+- 🎯 **悬停详情**：将鼠标悬停在图表上的每个数据点上，获取详细信息。
+
+### **使用颜色主题选择您的风格**
+
+使用各种颜色主题个性化您的表格和图表，以匹配您的 Obsidian 美学：
 
 - orange
 - blue
@@ -100,5 +119,3 @@ Dec, 1900
 - gray
 - pink
 - yellow
-
----

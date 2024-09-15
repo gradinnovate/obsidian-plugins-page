@@ -1,10 +1,12 @@
 ![Color Table Banner](media/color-table-banner.jpeg)
 
+
 [English](README.md) | [简体中文](README_zh_CN.md) | [繁體中文](README_zh_TW.md) | [日本語](README_ja.md) | [Deutsch](README_de.md)
 
-# **Color Table Plugin**: Transform Your Data into Visual Masterpieces
 
-Enhance your Obsidian experience with the **Color Table Plugin**—your ultimate tool for transforming ordinary CSV data into beautifully formatted tables and captivating charts.
+# **Color Table Plugin**: Easily Create Beautiful Tables in Obsidian
+
+Transform your Obsidian experience with the **Color Table Plugin**—your go-to tool for turning raw data into beautifully formatted tables and engaging charts without the need to master complex Markdown table syntax.
 
 ## 🎧 **Plugin Introduction**
 
@@ -15,13 +17,15 @@ Listen to AI audio review to learn more about the exciting features of the Color
   Your browser does not support the audio element.
 </audio>
 
+
 ![Quick Preview](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/table-anim.gif)
 
 ## 🌟 **Key Features**
 
-- 🎨 **Beautify Your Data**: Breathe life into CSV files with visually appealing tables.
-- 🌈 **Customize with Color**: Express your style with a range of vibrant color themes.
-- 📊 **Visualize Trends**: Convert your data into eye-catching bar charts for a quick analysis.
+- 🎨 **Beautify Your Tables**: Quickly turn raw data into polished, easy-to-read tables.
+- 🌈 **Customize with Color**: Express your style with a range of vibrant color themes for your tables.
+- 📊 **Visualize Trends**: Effortlessly convert your data into eye-catching bar charts or other chart types such as pie, line, and radar charts for quick insights.
+- ✨ **Interactive Features**: Zoom and pan on charts, hover over data points for detailed information, and enjoy interactive table sorting to gain deeper insights from your data.
 
 ## 🚀 **Getting Started**
 
@@ -29,26 +33,26 @@ Listen to AI audio review to learn more about the exciting features of the Color
 2. Head over to the **Community Plugins** section.
 3. Deactivate **Safe Mode**.
 4. Click **Browse**, then search for **Color Table**.
-5. Install and activate your data visualization companion!
+5. Install and activate your table and chart companion!
 
 ## 💡 **How to Use**
 
-### **Convert CSV to Markdown Table**
+### **Create Tables with Simple Markdown**
 
-Select any CSV-formatted text in your Markdown file, and use the **"Convert CSV to Markdown Table"** command. If the text is valid CSV, it will be instantly transformed into a clean Markdown table. Otherwise, a notification will appear for invalid formats.
+Select any plain-text data in your Markdown file and use the **"Convert to Markdown Table"** command. The plugin will automatically transform your data into a clean, organized table—no need to worry about complex formatting. If the data format is incorrect, a helpful notification will appear.
 
-**Tip**: Combine this feature with hotkeys for quick CSV-to-Markdown conversions!
+**Tip**: Use hotkeys to speed up the conversion process! Be sure to separate your data values with commas (`,`) for the best results.
 
 ![Hotkey Conversion](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/hotkey-anim.gif)
 
-![CSV to Markdown Example](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/markdown-table-anim.gif)
+![Markdown Table Example](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/markdown-table-anim.gif)
 
-### **Create Stunning Tables**
+### **Create Stunning, Customizable Tables**
 
-In your Markdown file, simply use the following format to generate beautifully styled tables:
+In your Markdown file, use the following format to generate visually appealing tables:
 
 ````markdown
-```csv orange
+```csv-table orange
 ID, Name, Age, Department, Salary
 1, Alice, 29, HR, 50000
 2, Bob, 35, IT, 75000
@@ -59,37 +63,54 @@ ID, Name, Age, Department, Salary
 
 ![Table Example](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/table.png)
 
-#### **Interactive Sorting: Unleash the Power of Your Data**
+#### **Interactive Tables: Take Your Data Further**
 
-Elevate your tables with dynamic, sortable columns. With just a click, you can:
+Enhance your tables with dynamic features like sortable columns, allowing you to:
 
 - 🖱️ **Instant Sorting**: Click any column header to sort your data.
-- 🔄 **Toggle Direction**: Effortlessly switch between ascending and descending order.
-- ⚡ **Real-Time Updates**: Watch as your data re-sorts instantly, providing immediate insights.
-
-Empower your decision-making with this intuitive feature!
+- 🔄 **Toggle Sorting Direction**: Easily switch between ascending and descending order.
+- ⚡ **Real-Time Updates**: Watch your data re-sort instantly, helping you make quick decisions.
 
 ![Sortable Table Example](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/sorted-table.png)
 
-### **Create Bar Charts**
+### **Create Interactive Charts with Multiple Chart Types**
 
-Want to visualize your data as a bar chart? Use the following format:
+Want to visualize your data with a bar chart, pie chart, line chart, or radar chart? It's simple! Use this format to instantly convert your table into a chart:
 
 ````markdown
-```csv-chart red
+```csv-chart red bar
 Month, Sales
 Jan, 1200
 Feb, 200
 ...
 Dec, 1900
 ```
+
+```csv-chart blue pie
+Category, Percentage
+A, 30
+B, 25
+C, 45
+```
+
+```csv-chart green line
+Date, Revenue
+2021-01-01, 500
+2021-02-01, 750
+2021-03-01, 900
+```
 ````
 
 ![Bar Chart Example](https://raw.githubusercontent.com/gradinnovate/public-raw/main/obsidian-color-table/bar-chart.png)
 
-### **Color Themes**
+#### **Interactive Chart Features**
 
-Choose from a variety of color themes to match your style:
+- 🔍 **Zoom and Pan**: Explore your data by zooming in on specific areas or panning through large datasets.
+- 🎯 **Hover Details**: Get detailed information about each data point by hovering over it on the chart.
+
+### **Choose Your Style with Color Themes**
+
+Personalize your tables and charts with a variety of color themes to match your Obsidian aesthetic:
 
 - orange
 - blue
@@ -99,4 +120,3 @@ Choose from a variety of color themes to match your style:
 - gray
 - pink
 - yellow
-
